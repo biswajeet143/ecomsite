@@ -1,0 +1,234 @@
+body {
+  background-color: #bebcbc; /* Light gray background */
+}
+
+.nav-ul
+{
+  background-color: rgb(118, 93, 47);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-ul li
+{
+  display: inline-block;
+  padding: 25px;
+
+}
+.nav-ul .ll
+{
+  font-size: larger;
+  color:white;
+}
+.nav-ul li .ll:hover
+{
+  color:red;
+}
+.footer
+{
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(118, 93, 47);
+  bottom: 0px;
+  width: 100%;
+  color: white;
+}
+.signup {
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Added box shadow effect */
+}
+
+.signup h1 {
+  text-align: center;
+  background-color: rgb(118, 93, 47);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.signup input {
+  display: block;
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.signup button {
+  background-color: rgb(118, 93, 47);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: larger;
+  font-style: italic;
+  transition: background-color 0.3s ease; /* Added smooth transition effect */
+}
+
+.signup button:hover {
+  background-color: rgb(61, 58, 51);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow effect on hover */
+}
+
+span
+{
+  color: red;
+  display: block;
+  margin-top: -5px;
+}
+.productlist
+{
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.productlist ul li
+{
+  
+  display: inline-block;
+ /* margin-left: 10px;
+ padding-left: 10px; */
+  border: 2px solid blue;
+}
+
+
+/* Add this CSS to a separate Productlist.css file */
+
+.productlist {
+  margin-top: 20px;
+}
+
+.productlist input {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.productlist table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.productlist th, .productlist td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.productlist th {
+  background-color: #947373;
+  color: #333;
+  text-align: center ;
+  font-size: larger;
+}
+
+.productlist td {
+  font-size: 20px;
+  text-align: center;
+}
+
+.productlist button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: medium;
+}
+
+.productlist a {
+  text-decoration: none;
+  color: #fff;
+}
+.productlist button:hover {
+  background-color: #2980b9;
+}
+
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  margin-top: 10px;
+  width: 500px; /* Adjust the width as needed */
+  height: 60px;
+  text-align: center;
+  
+  font-size: 20px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid #8a7b7b;
+  border-radius: 5px;
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+
+.search-container i {
+  font-size: 30px; /* Adjust the icon size as needed */
+  color: #d1b9b9;
+  padding: 12px;
+  margin-left: -10px;
+  margin-top: 10px;
+  background-color: #555;
+}
+
+/* Add this CSS inside your existing stylesheet */
+@media only screen and (max-width: 768px) {
+  .search-input {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+/* Add this CSS inside your existing stylesheet */
+@media only screen and (max-width: 768px) {
+  .productlist table {
+    font-size: 16px;
+  }
+  .productlist th, .productlist td {
+    padding: 5px;
+  }
+  .productlist button {
+    padding: 8px;
+  }
+}
+
+/* Add this CSS inside your existing stylesheet */
+@media only screen and (max-width: 768px) {
+  .signup {
+    padding: 20px;
+  }
+  .signup h1 {
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+/* Add this CSS inside your existing stylesheet */
+@media only screen and (max-width: 768px) {
+  .nav-ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-ul li {
+    padding: 15px;
+  }
+}
